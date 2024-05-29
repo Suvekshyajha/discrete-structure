@@ -29,7 +29,6 @@ int main(){
 		
 	}
 	printf(" by second membership function:\n");
-	float degree=0.0;
 	for(i=0;i<5;i++){
 		if(p[i].age<=15){
 			printf("degree of membership of  %s is 1\n" ,p[i].name);
