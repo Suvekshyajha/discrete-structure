@@ -15,8 +15,8 @@ int main() {
     } else if (num < 0 && ceiling!= num) {
         ceiling= (int)num;
     }
-    printf("Floor of %.2f is: %d\n", num, floor);
-    printf("Ceiling of %.2f is: %d\n", num, ceiling);
+    printf("Floor integer of %.2f is: %d\n", num, floor);
+    printf("Ceiling integer of %.2f is: %d\n", num, ceiling);
 
     return 0;
 }
