@@ -11,7 +11,7 @@ int main() {
     }
     ceiling = (int)num;
     if (num > 0 && ceiling!= num) {
-        ceiling+= ceiling+1;
+        ceiling= ceiling+1;
     } else if (num < 0 && ceiling!= num) {
         ceiling= (int)num;
     }
